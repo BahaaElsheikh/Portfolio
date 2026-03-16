@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bahaa Elshikh — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">BE<span class="dot">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">ENGINEER</div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Bahaa<br /><span>Elshikh</span></h1>
+      <p class="hero-role">Full Stack Developer <span class="sep">·</span> CS Engineering Student</p>
+      <p class="hero-desc">Second-year Computer & Automatic Control Engineering student building web systems, desktop tools, and AI-powered solutions.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-tag">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Turning ideas into <em>working software</em></h2>
+          <p>I'm a second-year Computer & Automatic Control Engineering student at Tanta University with a strong passion for .NET Full Stack Development and software engineering.</p>
+          <p>I build practical applications — from web reservation systems to AI-powered chatbots — and I'm currently deepening my expertise in C# and .NET to craft scalable, real-world solutions.</p>
+          <div class="about-meta">
+            <div class="meta-item"><span>📍</span> Tanta, Egypt</div>
+            <div class="meta-item"><span>🎓</span> Tanta University — Level 2</div>
+            <div class="meta-item"><span>🌐</span> Arabic (Native) · English (Good)</div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="card-inner">
+            <div class="card-label">Currently Learning</div>
+            <div class="card-value">C# &amp; .NET</div>
+            <div class="card-divider"></div>
+            <div class="card-label">Focus Area</div>
+            <div class="card-value">Full Stack Development</div>
+            <div class="card-divider"></div>
+            <div class="card-label">Status</div>
+            <div class="card-value status-green">Open to Opportunities</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-tag">02 / Skills</div>
+      <h2>What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">C++</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag tag-learning">C# (Learning)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Web Development</h3>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Flask</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <div class="tags">
+            <span class="tag">SQL</span>
+            <span class="tag">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools & Concepts</h3>
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Client-Server</span>
+            <span class="tag">AI Integration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-tag">03 / Projects</div>
+      <h2>Things I've built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <h3>Flight Reservation Web App</h3>
+          <p>Web application for searching, filtering, and booking flights. Includes an admin panel for managing flight data.</p>
+          <div class="project-tags">
+            <span>Flask</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <h3>Train Reservation System</h3>
+          <p>Reservation system for booking train tickets — search trips, filter routes, and manage reservations end-to-end.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>SQL</span><span>HTML/CSS</span>
+          </div>
+        </div>
+
+        <div class="project-card project-card--highlight">
+          <div class="project-num">03</div>
+          <h3>AI-Powered Chatbot</h3>
+          <p>Intelligent chatbot system with client-server architecture that manages and automatically responds to user queries using AI integration.</p>
+          <div class="project-tags">
+            <span>Python</span><span>AI Integration</span><span>Client/Server</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">04</div>
+          <h3>QR Registration System</h3>
+          <p>Generates QR codes with embedded user data and a companion scanner app that reads and stores data directly into a database.</p>
+          <div class="project-tags">
+            <span>Python</span><span>SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">05</div>
+          <h3>Arduino Mini Project</h3>
+          <p>Hardware project using temperature & ultrasonic sensors, buzzers, and LEDs to detect environmental conditions and trigger smart alerts.</p>
+          <div class="project-tags">
+            <span>Arduino</span><span>C++</span><span>Sensors</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-tag">04 / Contact</div>
+      <h2>Let's connect</h2>
+      <p class="contact-sub">I'm always open to new opportunities, collaborations, or just a good tech conversation.</p>
+      <div class="contact-links">
+        <a href="mailto:bahaa2209@gmail.com" class="contact-item">
+          <span class="ci-icon">✉</span>
+          <span>bahaa2209@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/bahaa-elsheikh-26a71a183" target="_blank" class="contact-item">
+          <span class="ci-icon">in</span>
+          <span>linkedin.com/in/bahaa-elsheikh</span>
+        </a>
+        <a href="https://github.com/BahaaElsheikh" target="_blank" class="contact-item">
+          <span class="ci-icon">⌥</span>
+          <span>github.com/BahaaElsheikh</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>Bahaa Elshikh © 2025</span>
+    <span>Built with HTML · CSS · JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
